@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>VO Updates</title>
-    <link>https://github.com/rs9io/vo-releases</link>
-    <description>Signed macOS updates for VO.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>VO Updates</title>
+        <link>https://github.com/rs9io/vo-releases</link>
+        <description>Signed macOS updates for VO.</description>
+        <language>en</language>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Thu, 06 Aug 2026 22:58:53 +1000</pubDate>
+            <sparkle:version>20260806125729</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# VO 0.1.0
+
+The first Dad-ready release of VO.
+
+- Installs with a simple drag into Applications.
+- Runs natively on Apple silicon and Intel Macs.
+- Checks for signed updates automatically, with **Check for Updates…** available from the menu bar.
+]]></description>
+            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/VO-0.1.0.dmg" length="7322164" type="application/octet-stream" sparkle:edSignature="X/syR6voRkG9Z/M93FJ6HMJygGx4UKmN4ZLT84l7RABa/bu76FuCJmmmCW1Fh+2xXaGR530t24oAy537z0+/Bg=="/>
+        </item>
+    </channel>
 </rss>
