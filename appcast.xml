@@ -19,7 +19,7 @@ The first Dad-ready release of VO.
 - Runs natively on Apple silicon and Intel Macs.
 - Checks for signed updates automatically, with **Check for Updates…** available from the menu bar.
 ]]></description>
-            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/VO-0.1.0.dmg" length="7322164" type="application/octet-stream" sparkle:edSignature="X/syR6voRkG9Z/M93FJ6HMJygGx4UKmN4ZLT84l7RABa/bu76FuCJmmmCW1Fh+2xXaGR530t24oAy537z0+/Bg=="/>
+            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.1.0/VO-0.1.0.dmg" length="7322164" type="application/octet-stream" sparkle:edSignature="X/syR6voRkG9Z/M93FJ6HMJygGx4UKmN4ZLT84l7RABa/bu76FuCJmmmCW1Fh+2xXaGR530t24oAy537z0+/Bg=="/>
         </item>
     </channel>
 </rss>
