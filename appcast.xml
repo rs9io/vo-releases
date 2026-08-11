@@ -13,11 +13,11 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[# VO 0.1.0
 
-The first Dad-ready release of VO.
+Initial macOS release of VO.
 
-- Installs with a simple drag into Applications.
-- Runs natively on Apple silicon and Intel Macs.
-- Checks for signed updates automatically, with **Check for Updates…** available from the menu bar.
+- Drag-to-Applications installation.
+- Native support for Apple silicon and Intel Macs.
+- Automatic signed updates, with **Check for Updates…** available from the menu bar.
 ]]></description>
             <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.1.0/VO-0.1.0.dmg" length="7322164" type="application/octet-stream" sparkle:edSignature="X/syR6voRkG9Z/M93FJ6HMJygGx4UKmN4ZLT84l7RABa/bu76FuCJmmmCW1Fh+2xXaGR530t24oAy537z0+/Bg=="/>
         </item>
