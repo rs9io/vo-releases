@@ -6,6 +6,22 @@
         <description>Signed macOS updates for VO.</description>
         <language>en</language>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Sat, 05 Sep 2026 20:50:23 +1000</pubDate>
+            <sparkle:version>20260905104803</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# VO 0.2.1
+
+- Check for Updates is now in the normal VO menu at the top left of the screen, as well as the microphone menu on the right.
+- Includes the latest dictation, Australian English, meeting notes, speaker naming, audio review, voice coaching and Nighthawk appearance updates.
+- The voice output chart shows the exact date and word count when you hover over a day.
+
+If the app still has the green appearance, open Settings → Appearance → Nighthawk for the newer look.
+]]></description>
+            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.2.1/VO-0.2.1.dmg" length="14573211" type="application/octet-stream" sparkle:edSignature="8fS2V5O5mbYMvk0U24G4xMMVLK1V3p4bBa+14ZzfFB0pzbcHbdx3idF8MZIHGGvjyM7To3WrLLbMNKPt3LmSBA=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Sat, 05 Sep 2026 20:45:28 +1000</pubDate>
             <sparkle:version>20260905104144</sparkle:version>
