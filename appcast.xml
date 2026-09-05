@@ -6,6 +6,23 @@
         <description>Signed macOS updates for VO.</description>
         <language>en</language>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Sat, 05 Sep 2026 20:45:28 +1000</pubDate>
+            <sparkle:version>20260905104144</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# VO 0.2.0
+
+- Dictation: more hotkey choices including mouse buttons, no clipped last syllable, no double submits, Australian spelling without rewriting what you said.
+- Settings: named microphone picker with live level meter and test clip, clearer settings pages, updated statistics, optional Nighthawk appearance.
+- Meetings: records your microphone and the other side separately, fixes system audio capture, and writes notes that hold up over long meetings with decisions and action items.
+- Voiceprint: play clips to name each speaker, use names from the calendar invite, or mark your own voice as You.
+- Review and repair: timed transcript turns with audio playback, "Transcript needs review" warnings, Repair transcript, Reprocess and Redo notes.
+- Voice coaching: feedback on repeated starts, fast speech and pauses, with Play evidence and a short retry.
+]]></description>
+            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.2.0/VO-0.2.0.dmg" length="14546546" type="application/octet-stream" sparkle:edSignature="I610W9v0hxTjisLi2qYtdv8z0+Io2SCS//WUAPjtoIU64gVcHvaEPr38bZVfX9VkBuySi5wJ8lnMnj/Dg6erAw=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Thu, 06 Aug 2026 22:58:53 +1000</pubDate>
             <sparkle:version>20260806125729</sparkle:version>
