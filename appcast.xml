@@ -6,6 +6,19 @@
         <description>Signed macOS updates for VO.</description>
         <language>en</language>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Fri, 11 Sep 2026 22:35:38 +1000</pubDate>
+            <sparkle:version>20260911123035</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# VO 0.2.2
+
+- Dictation now works while Settings is open. The microphone level meter in Settings steps aside for dictation, voice commands and meetings, says that it is paused, and comes back on its own.
+- Includes the 0.2.1 changes: Check for Updates in the VO menu, and the time-saved readout in days, weeks and months.
+]]></description>
+            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.2.2/VO-0.2.2.dmg" length="14556292" type="application/octet-stream" sparkle:edSignature="NYXtD9jCoJ32QFBsPfcXe+EbPwahqmnj5q1bAhpSeOXYJZzSzrhrOtqCfeMY5WaliJY1yq2HpJJn7AUxRNJbAg=="/>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Sat, 05 Sep 2026 20:50:23 +1000</pubDate>
             <sparkle:version>20260905104803</sparkle:version>
@@ -37,22 +50,6 @@ If the app still has the green appearance, open Settings → Appearance → Nigh
 - Voice coaching: feedback on repeated starts, fast speech and pauses, with Play evidence and a short retry.
 ]]></description>
             <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.2.0/VO-0.2.0.dmg" length="14546546" type="application/octet-stream" sparkle:edSignature="I610W9v0hxTjisLi2qYtdv8z0+Io2SCS//WUAPjtoIU64gVcHvaEPr38bZVfX9VkBuySi5wJ8lnMnj/Dg6erAw=="/>
-        </item>
-        <item>
-            <title>0.1.0</title>
-            <pubDate>Thu, 06 Aug 2026 22:58:53 +1000</pubDate>
-            <sparkle:version>20260806125729</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# VO 0.1.0
-
-Initial macOS release of VO.
-
-- Drag-to-Applications installation.
-- Native support for Apple silicon and Intel Macs.
-- Automatic signed updates, with **Check for Updates…** available from the menu bar.
-]]></description>
-            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.1.0/VO-0.1.0.dmg" length="7322164" type="application/octet-stream" sparkle:edSignature="X/syR6voRkG9Z/M93FJ6HMJygGx4UKmN4ZLT84l7RABa/bu76FuCJmmmCW1Fh+2xXaGR530t24oAy537z0+/Bg=="/>
         </item>
     </channel>
 </rss>
