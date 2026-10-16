@@ -6,6 +6,24 @@
         <description>Signed macOS updates for VO.</description>
         <language>en</language>
         <item>
+            <title>0.2.4</title>
+            <pubDate>Fri, 16 Oct 2026 23:55:53 +1100</pubDate>
+            <sparkle:version>20261016125245</sparkle:version>
+            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# VO 0.2.4
+
+- Paste Last Dictation. If another app grabbed focus while you were talking, click the text box you meant and press Control + Option + Command + V. VO pastes your last finished dictation again, keeps your clipboard as it was, and still works after VO restarts. You can switch it to Control + Option + Command + L, or turn it off, in Settings → Paste Last Dictation.
+- Fixed VO sometimes freezing for a minute or more after you finished talking, with the waveform stuck and nothing pasted. It happened when the app that last copied something to your clipboard stopped responding. VO now waits at most half a second for it, then pastes and leaves your dictation on the clipboard.
+- Right Command and Right Control can now start dictation too, alongside Right Option.
+- The cleanup pass no longer invents text, and handles spoken corrections ("no wait", "scratch that", "I mean") properly. The cloud cleanup model is now gpt-4.1-mini, and local cleanup defaults to qwen3.5:4b-nvfp4, which runs on Ollama's faster MLX engine.
+- New installs start with on-device dictation and the cleanup pass off, so VO works out of the box with no API key. Existing settings are left as they are.
+- What's New. After VO updates itself, a small "What's New" link appears at the top right of the VO window and at the top of the menu bar menu. It shows what changed, like this list, and goes away once you've read it.
+- Includes the 0.2.3 change: updates install themselves once you have been idle for two minutes.
+]]></description>
+            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.2.4/VO-0.2.4.dmg" length="14742394" type="application/octet-stream" sparkle:edSignature="zbQ/M5uspCHUfonDQlbSa/qhC553u9aFCqdeysLxUOcHx0JeC1n1cRJO9gdU0CxZG94CparzdYOAKL6vqyNwDQ=="/>
+        </item>
+        <item>
             <title>0.2.3</title>
             <pubDate>Fri, 11 Sep 2026 23:07:48 +1000</pubDate>
             <sparkle:version>20260911130309</sparkle:version>
@@ -30,22 +48,6 @@
 - Includes the 0.2.1 changes: Check for Updates in the VO menu, and the time-saved readout in days, weeks and months.
 ]]></description>
             <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.2.2/VO-0.2.2.dmg" length="14556292" type="application/octet-stream" sparkle:edSignature="NYXtD9jCoJ32QFBsPfcXe+EbPwahqmnj5q1bAhpSeOXYJZzSzrhrOtqCfeMY5WaliJY1yq2HpJJn7AUxRNJbAg=="/>
-        </item>
-        <item>
-            <title>0.2.1</title>
-            <pubDate>Sat, 05 Sep 2026 20:50:23 +1000</pubDate>
-            <sparkle:version>20260905104803</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# VO 0.2.1
-
-- Check for Updates is now in the normal VO menu at the top left of the screen, as well as the microphone menu on the right.
-- Includes the latest dictation, Australian English, meeting notes, speaker naming, audio review, voice coaching and Nighthawk appearance updates.
-- The voice output chart shows the exact date and word count when you hover over a day.
-
-If the app still has the green appearance, open Settings → Appearance → Nighthawk for the newer look.
-]]></description>
-            <enclosure url="https://github.com/rs9io/vo-releases/releases/download/v0.2.1/VO-0.2.1.dmg" length="14573211" type="application/octet-stream" sparkle:edSignature="8fS2V5O5mbYMvk0U24G4xMMVLK1V3p4bBa+14ZzfFB0pzbcHbdx3idF8MZIHGGvjyM7To3WrLLbMNKPt3LmSBA=="/>
         </item>
     </channel>
 </rss>
